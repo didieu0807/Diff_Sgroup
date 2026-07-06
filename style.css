@@ -77,10 +77,12 @@ a::after {
     font-weight: bold;
     justify-content: center;
 }
-.VN-item p, .EN-item p {
+.VN-item a, .EN-item a {
     display: flex;
     align-items: center !important;
     margin: 0;
+    text-decoration: none;
+    color: #d6cfcff2;
 }
 .main {
     margin-top: 70px;
